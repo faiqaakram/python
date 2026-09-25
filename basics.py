@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #using print function
 print("Hello,user!")
 print("I am faiqa","my age is 23")
@@ -87,4 +88,6 @@ if(Light =="red"):
 
 
 
+=======
+>>>>>>> b31414e5e8a23c15102ef5787aa9b0c90a805cdc
 
