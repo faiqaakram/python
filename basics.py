@@ -122,6 +122,111 @@ time=float(input("t: "))
 simpleinterest=principalamount*rate*time/100
 print(simpleinterest)
 
+#Operators
+#1. Arithmetic operator
+a=5
+b=2
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)     #gives reminder
+print(a**b)    #a^b
+
+#Relational/Comparison operators
+a=50
+b=60
+print(a==b)
+print(a!=b)
+print(a>=b)
+print(a<=b)
+print(a<b)
+
+#Assignment operators
+num= 10
+num=num+10
+num+=10
+num-=10
+num/=10
+num%=10
+num**=10
+print("num:", num)
+
+#Logical operators
+print(not False)  #not operator
+print(not True)
+
+a=50
+b=30
+print(not(a>b))
+
+val1=True          #And operator
+val2=False
+print("and operator:", val1 and val2)
+
+val1=True          #Or operator
+val2=False
+print("and operator:", val1 or val2)
+
+#Type conversion
+#1. Automatic conversion
+a=2
+b=4.25
+sum=a+b
+
+#2. Type casting or manual conversion
+
+a=float("2")
+b=4.35
+print(a+b)
+
+a=3.14
+a=str(a)
+
+print(type(a))
+
+#Input in python
+name=input("enter your name: ")
+print("Welcome", name)
+
+val=int(input("enter some value: "))
+print(type(val), val)
+
+name=input("enter name: ")
+age= int(input("enter age: "))
+marks= float(input("enter marks"))
+
+first= int(input("enter first: "))
+second =int(input("enter second: "))
+
+print("sum=", first+second)
+
+side= int(input("enter square side: "))
+print("area=", side*side)   #orside**2
+
+a=float(input("enter first: "))
+b=float(input("enter second: "))
+
+print("avg=", (a+b/2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
