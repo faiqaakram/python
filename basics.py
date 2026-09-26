@@ -82,6 +82,49 @@ print("my name is",name,"and i am",age,"years old")
 Light = input("Light: ")
 if(Light =="red"):
     print("stop")
+elif(Light=="yellow"):
+    print("look")
+elif(Light=="green"):
+    print("go")
+else:
+    print("Light is broken")  
+
+marks= input("marks: ") 
+if(marks >= 90):
+    print("A")
+elif(marks>=80 and marks<90):
+    print("B")
+elif(marks>= 70 and marks< 80):
+    print("C") 
+else:
+    print("D") 
+
+
+#Single line if/ Ternary operator
+food=input("food: ") 
+eat="yes"  if food=="cake" else "no"
+print(eat)
+
+food=input("food: ") 
+print("sweet")  if food=="cake" or food=="jalebi" else print("not sweet")
+
+#Clever if/Ternary operator
+age=int(input("age: "))
+vote= ("yes", "no") [age<=18]
+
+sal=float(input("salary: "))
+tax=sal*(0.1, 0.2) [sal>=50000]
+print(tax)
+
+principalamount= float(input("p: "))
+rate=float(input("r: "))
+time=float(input("t: "))
+simpleinterest=principalamount*rate*time/100
+print(simpleinterest)
+
+
+
+
 
 
 
